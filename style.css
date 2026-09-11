@@ -1,0 +1,79 @@
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+
+/* 日付検索・ランダム検索の箱 */
+.search,
+.random,
+.result {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+/* 日付入力 */
+input {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* ボタン */
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #38bdf8;
+    color: white;
+    transition: 0.2s;
+}
+
+
+/* 結果 */
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0ea5e9;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
