@@ -70,8 +70,6 @@ searchButton.addEventListener("click", function() {
 
     result.innerHTML = `
     <strong>${random.name}</strong>
-    <br><br>
-    ${random.description}
 `;
 });
 
