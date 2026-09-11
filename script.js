@@ -86,7 +86,5 @@ randomButton.addEventListener("click", function() {
 
     result.innerHTML = `
         <strong>${random.month}月${random.day}日<br>${random.name}</strong>
-        <br><br>
-        ${random.description}
     `;
 });
